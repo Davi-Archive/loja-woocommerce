@@ -25,7 +25,11 @@ $produto = [
 <pre>
 
 <?php
+$produto['estoque'] = '10 items';
+
 print_r($produto);
+
+echo $produto['img']['src'];
 ?>
 
 <br />
