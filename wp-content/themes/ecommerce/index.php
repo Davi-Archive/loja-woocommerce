@@ -16,7 +16,7 @@ $nome = 'Amigo';
 echo $nome;
 ?>
 
-<h1><?= $nome ?></h1>
+<h1><?='esse é meu nome:' . $nome ?></h1>
 
 </body>
 </html>
