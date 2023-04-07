@@ -9,14 +9,32 @@
 <body>
 
 <?php
-$nome = 'Amigo';
+
+$produtos = ['Bermudas', 'Camisetas','Sapatos'];
+
+$produto = [
+    'nome'=> 'Camisa',
+    'preco'=> 'RS49',
+    'img'=> [
+        'src'=> './img/image.jpg',
+        'alt'=> 'Camisa Preta',
+    ],
+    ];
 ?>
+
+<pre>
 
 <?php
-echo $nome;
+print_r($produto);
 ?>
 
-<h1><?='esse é meu nome:' . $nome ?></h1>
+<br />
+<?= $produtos[0];
+print_r($produtos);
 
+
+var_dump($produtos);
+?>
+</pre>
 </body>
 </html>
